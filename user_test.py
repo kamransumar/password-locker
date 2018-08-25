@@ -22,7 +22,7 @@ class TestUser(unittest.TestCase):
 
     def test_add_account(self):
         account = self.new_accounts.save_user_accounts()
-        account2 = self.new_accounts2.save_user_accounts()
+        account2 = self.new_accounts2.gen_details(8)
         self.new_user.add_account(account)
         self.new_user.add_account(account2)
         print(self.new_user.platforms)

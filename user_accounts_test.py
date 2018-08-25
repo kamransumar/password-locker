@@ -17,6 +17,9 @@ class TestUserAccounts(unittest.TestCase):
         self.assertEqual(len(self.new_accounts.save_user_accounts()), 3)
         print("ok")
 
+    def test_gen_details(self):
+        print(self.new_accounts.gen_details(8))
+
 
 if __name__ == "__main__":
     unittest.main()
