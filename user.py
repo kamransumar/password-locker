@@ -56,6 +56,19 @@ def main():
 
             print(new_user)
 
+        elif choice == "nc":
+            name = input("enter the name of the platform\n")
+            email = input("enter a valid email\n")
+            password = ""
+            length = int(input("enter length of password:"))
+
+            new_acc = UserAccounts(name, email, password)
+            acc = new_acc.save_user_accounts()
+
+            acc = new_acc.gen_details(length)
+
+            print(acc)
+
 
 if __name__ == "__main__":
     main()
