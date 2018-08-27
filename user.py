@@ -46,7 +46,7 @@ def main():
         choice = input().lower()
 
         if choice == "ac":
-            name = input("Enter acount name: \n")
+            name = input("Enter platform name: \n")
             email = input("Enter a valid email\n")
             password = input("Enter a valid password\n")
 
@@ -54,20 +54,30 @@ def main():
 
             user.add_account(acc)
 
-            print(new_user)
+            print(
+                f"Thank you {new_user[0]} here are the details to your existing account:\n"
+            )
+            print(
+                f"platform name : {acc[0]}\n your email : {acc[1]}\n your password : {acc[2]}"
+            )
 
         elif choice == "nc":
             name = input("enter the name of the platform\n")
             email = input("enter a valid email\n")
             password = ""
-            length = int(input("enter length of password:"))
+            length = int(input("enter length of password:\n"))
 
             new_acc = UserAccounts(name, email, password)
             acc = new_acc.save_user_accounts()
 
             acc = new_acc.gen_details(length)
 
-            print(acc)
+            print(
+                f"Thank you {new_user[0]} here are the details to your new account:\n"
+            )
+            print(
+                f"platform name : {acc[0]}\n your email : {acc[1]}\n your generated password : {acc[2]}"
+            )
 
 
 if __name__ == "__main__":
