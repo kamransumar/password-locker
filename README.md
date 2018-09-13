@@ -1,8 +1,8 @@
 # kamran sumar
 #### application to add passwords and accounts, 22.07.18
-#### By **{kamran sumar}**
+#### By **kamran sumar**
 ## Description
-{this application enables the user to create an account and allows them to add an existing account for a certain platform as well as generate an account for a cetain platform and even generates for them a password. }
+this application enables the user to create an account and allows them to add an existing account for a certain platform as well as generate an account for a cetain platform and even generates for them a password. 
 ## Setup/Installation Requirements
 * first the user needs to install the python language terminal
 * for mac users  they should install brew and xcode to make the instalation process easy to do
@@ -13,7 +13,7 @@
 3.run the application buy stating the python version along with the project name, in this case its "python3.7 user.py"
 4. follow the instructions the application has stated in order to fully understand hoe it works.
 ## Known Bugs
-{the user is not able to have many accounts and also cannot go backwards. }
+the user is not able to have many accounts and also cannot go backwards.
 ## Technologies Used
 pyhton-python is used to create the whole project,
 type script-used to access python in the terminal,
