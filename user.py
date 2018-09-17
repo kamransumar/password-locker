@@ -1,11 +1,11 @@
 from user_accounts import UserAccounts
 
-
-class User:
-      """
+"""
     This is a class that generates new instances of users.
     """
 
+
+class User:
     def __init__(self, first_name, last_name, email, password, platforms):
         self.first_name = first_name
         self.last_name = last_name
@@ -13,9 +13,9 @@ class User:
         self.password = password
         self.platforms = platforms
 
- '''
-       This method will save the user objects into the user list
-        '''
+'''
+    This method will save the user objects into the user list
+    '''
 
     def save_user(self):
         user_list = [

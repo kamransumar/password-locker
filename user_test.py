@@ -2,6 +2,12 @@ import unittest
 from user import User
 from user_accounts import UserAccounts
 
+"""
+    Test class that defines test cases for the profile behaviours.
+    Args:
+        unittest.TestCase: TestCase class that helps in creating test cases
+    """
+
 
 class TestUser(unittest.TestCase):
     def setUp(self):
