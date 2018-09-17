@@ -13,6 +13,8 @@ class User:
         self.password = password
         self.platforms = platforms
 
+ #Defining the object user which will include the first name, last name and the password
+
     def save_user(self):
         user_list = [
             self.first_name,
