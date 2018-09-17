@@ -2,6 +2,10 @@ from user_accounts import UserAccounts
 
 
 class User:
+      """
+    This is a class that generates new instances of users.
+    """
+
     def __init__(self, first_name, last_name, email, password, platforms):
         self.first_name = first_name
         self.last_name = last_name
