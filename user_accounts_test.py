@@ -2,6 +2,8 @@ import unittest
 
 from user_accounts import UserAccounts
 
+"""class that tests the user accounts"""
+
 
 class TestUserAccounts(unittest.TestCase):
     def setUp(self):
