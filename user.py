@@ -13,11 +13,10 @@ class User:
         self.password = password
         self.platforms = platforms
 
-'''
-    This method will save the user objects into the user list
-    '''
-
     def save_user(self):
+        """
+    This method will save the user objects into the user list
+    """
         user_list = [
             self.first_name,
             self.last_name,
