@@ -1,6 +1,8 @@
 import random
 import string
 
+"""class to create the user accounts"""
+
 
 class UserAccounts:
     def __init__(self, name, email, password):
